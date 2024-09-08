@@ -71,8 +71,8 @@ def process_video(video_path, output_path):
     cv2.destroyAllWindows()
 
 # Path to your input video and output file
-video_path = "DTT.mp4"  # You can use Google Drive API to download videos if needed
-output_path = "output_video1.mp4"
+video_path = input("Enter your video path:") # Enter your video path here
+output_path = "output_video.mp4"
 
 # Run the processing
 process_video(video_path, output_path)
